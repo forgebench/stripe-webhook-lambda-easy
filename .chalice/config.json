@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "app_name": "stripe-webhook-lambda-easy",
+  "stages": {
+    "prod": {
+      "api_gateway_stage": "api"
+    }
+  }
+}

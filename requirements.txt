@@ -1,0 +1,4 @@
+chalice==1.27.3
+sendgrid==6.9.7
+stripe==4.2.0
+twilio==7.14.2
