@@ -26,8 +26,9 @@ See the [AWS documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli
 
 The third file is the Stripe and Twilio config. This is the config.py found in chalicelib. This file contains
 the Stripe and Twilio API keys, as well as the Twilio phone number and Twilio Sendgrid email address. You will need to
-refer to the Twilio and Stripe documentation to get these keys. I HIGHLY recommend using Parameter Store or Secrets Manager
-to hold these keys. If you do so, remember to update your Lambda function's IAM Role to allow access to the keys.
+refer to the Twilio and Stripe documentation to get these keys. I HIGHLY recommend not hard coding them, and instead
+using a solution like Parameter Store or Secrets Manager to hold these keys. If you do so, remember to update 
+your Lambda function's IAM Role to allow access to the keys.
 
 ## 2. Edit the code
 
